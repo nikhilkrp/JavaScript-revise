@@ -5,16 +5,16 @@
     box-sizing: border-box;
 }
 body{
-   background-color: black;
+   background: linear-gradient(rgb(71, 123, 214),rgb(237, 139, 139));
 }
 .card{
     width:90%;
     max-width: 470px;
-    background: linear-gradient(145deg , green , red);
-    color:blueviolet;
+    background: linear-gradient(145deg , rgb(173, 232, 173) , rgba(0, 157, 255, 0.852));
+    color:rgb(7, 18, 79);
     border-radius: 20px;
-    margin: 100px auto 0;
-    padding: 40px 35px;
+    margin: 100px auto ;
+    padding: 30px 35px;
     text-align: center; 
 }
 .search{
@@ -36,8 +36,8 @@ body{
  font-size:18px;   
 }
 .search button{
-    border-radius: 50%;
-     border: 0;
+ border-radius: 50%;
+ border: 0;
  outline: 0;
  background: #ebfffc;
  height:60px;
@@ -46,6 +46,9 @@ body{
 }
 .search button img{
     width:16px;
+}
+.details{
+   grid-row: 3;
 }
 .error{
     display:none;
